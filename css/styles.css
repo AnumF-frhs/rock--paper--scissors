@@ -97,4 +97,10 @@ body {
   animation: twinkle 6s infinite linear reverse;
 }
 
+.display-6 {
+    color: white;
+}
 
+.controls-col {
+color: white;
+}
