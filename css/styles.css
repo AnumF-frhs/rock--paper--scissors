@@ -97,12 +97,4 @@ body {
   animation: twinkle 6s infinite linear reverse;
 }
 
-/* fonts and text color*/
 
-.display-6  {
- color: white;
-}
-
-.btn  {
-    color: white;
-}
