@@ -109,6 +109,7 @@ body {
 
 .btn-border-danger {
    text-shadow: 0 0 8px rgb(255, 255, 255);
+   
 }
 
 .btn-border-dark {
@@ -140,6 +141,10 @@ h2 {
     background: #f8f9fa;
     border: 6px solid #111;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.controls-row {
+  font-family: 'Press Start 2P', monospace;
 }
 
 
