@@ -99,11 +99,11 @@ body {
 }
 
 .display-6 {
-    color: white;
+    color: rgb(250, 248, 116);
 }
 
 .controls-col {
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -126,7 +126,7 @@ h1 {
 
 
 
-.pixel, h5{
+.pixel, h4{
     font-family: 'Press Start 2P', monospace;
 }
 
@@ -147,5 +147,13 @@ h2 {
   font-family: 'Press Start 2P', monospace;
 }
 
-
+#rockInput {
+  color: #f8f9fa;
+}
+#rockInput {
+  color: #f8f9fa;
+}
+#rockInput {
+  color: #f8f9fa;
+}
  
