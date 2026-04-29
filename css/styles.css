@@ -99,7 +99,7 @@ body {
 }
 
 .display-6 {
-    color: rgb(250, 248, 116);
+    color: rgb(250, 250, 245);
 }
 
 .controls-col {
@@ -150,10 +150,14 @@ h2 {
 #rockInput {
   color: #f8f9fa;
 }
-#rockInput {
+#paperInput {
   color: #f8f9fa;
 }
-#rockInput {
+#scissorsInput {
+  color: #f8f9fa;
+}
+ 
+#resetBtn {
   color: #f8f9fa;
 }
  
