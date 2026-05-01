@@ -112,12 +112,17 @@ body {
    
 }
 
+
 .btn-border-dark {
   text-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
 .btn-border-warning {
   text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+.modal-content {
+  color: #f8f9fa;
 }
 
 h1 {
@@ -161,5 +166,8 @@ h2 {
   color: #f8f9fa;
 }
 
+.btn-primary {
 
- 
+  
+}
+
