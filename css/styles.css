@@ -135,10 +135,7 @@ h1 {
     font-family: 'Press Start 2P', monospace;
 }
 
-h2 {
-  text-shadow: 0 0 8px rgb(198, 139, 238); 
 
-}
 
  
 
@@ -221,6 +218,21 @@ h2 {
     rotate: 360deg;
   }
 }
+*/
+.neon {
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ebf786, 0 0 10px #ebf786, 0 0 20px #ebf786, 0 0 40px #ebf786, 0 0 80px #ebf786;
+    animation: glow 1.5s infinite alternate;
+}
 
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px#ebf786, 0 0 10px#ebf786, 0 0 20px #ebf786, 0 0 40px #ebf786, 0 0 80px #ebf786;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
 
 
