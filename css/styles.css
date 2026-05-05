@@ -97,6 +97,7 @@ body {
     51vw 92vh 2px white, 59vw 78vh 1px white;
   animation: twinkle 6s infinite linear reverse;
 }
+/*button mods*/
 
 .display-6 {
     color: rgb(250, 250, 245);
@@ -149,6 +150,7 @@ h1 {
   font-family: 'Press Start 2P', monospace;
 }
 
+/*text*/
 #rockInput {
   color: #f8f9fa;
 }
@@ -163,9 +165,13 @@ h1 {
   color: #f8f9fa;
 }
 
-/* From Uiverse.io by narmesh_sah */ 
+#gameRules {
+  color: #f8f9fa;
+}
 
-/*
+
+/* From Uiverse.io by narmesh_sah */ 
+/* 
 .preloader {
   position: relative;
   width: 100%;
@@ -219,6 +225,8 @@ h1 {
   }
 }
 */
+
+/* text animation*/
 .neon {
     font-size: 2rem;
     color: #ffffff;
