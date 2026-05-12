@@ -33,16 +33,30 @@ console.log("Playing Round" + playerChoice);
 }
 
 //#6
+rockBtn.addEventListener("click", function () {
+    
+    playRound("rock"); 
 
-rockBtn.addEventListener( 'click', playRound);
+});
+
 
 //#7
 
-scissorsBtn.addEventListener( 'click', playRound);
+scissorsBtn.addEventListener( "click", function () {
+
+playRound("paper");
+
+});
 
 //#8
 
-paperBtn.addEventListener( 'click', playRound);
+scissorsBtn.addEventListener( "click", function () {
+
+playRound("scissors");
+
+});
+
+//paperBtn.addEventListener( 'click', playRound);
 
 ;
 
