@@ -42,7 +42,7 @@ rockBtn.addEventListener("click", function () {
 
 //#7
 
-scissorsBtn.addEventListener( "click", function () {
+paperBtn.addEventListener( "click", function () {
 
 playRound("paper");
 
