@@ -104,17 +104,21 @@ function updateScore (roundResult) {
 }
 }
 
+//#11
+
+//#12
+ resetBtn.addEventListener('click', reset)
+ 
+function reset () {
+   playerScore = 0;
+   computerScore = 0;
+  playerScore.textContent = playerScore;
+  computerScore.textContent= computerScore;
+}
 
 
-// reset button layout, not final
- //btnReset.addEventListener('click', resetGame)
-// function resetGame () {
-//     numOfLives = 3;
-//     playerScore = 0;
-//     lives.textContent = numOfLives;
-//     score.textContent= playerScore;
-//     statusDisplay.textContent = "Playing"
-// }
+
+
  console.log(getComputerChoice);
  console.log(playRound);
  console.log(choices);
