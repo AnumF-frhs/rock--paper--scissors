@@ -58,7 +58,36 @@ playRound("scissors");
 
 //paperBtn.addEventListener( 'click', playRound);
 
-;
+//#9
+function determineWinner (playerChoice, computerChoice) {
+
+       var playerC = choices[playerChoice];
+       var computerC = choices[computerChoice] ;
+
+       
+
+       if (playerChoice === computerChoice) {
+             return "Tie";
+       }
+
+       if (playerC === "Rock") {
+         if (computerC === "Paper") { return "Computer"; }
+               else { return "Player"; }
+       }
+
+       if (playerC === "Paper") {
+             if (computerC === "Scissors") { return "Computer"; }
+             else { return "Player";}
+      }
+
+
+
+      if (playerC === "Scissors") {
+           if (computerC === "Rock") { return "Computer" }
+           else { return "Player"; }
+     }
+}
+
 
 
 // reset button layout, not final
