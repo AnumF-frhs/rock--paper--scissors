@@ -88,6 +88,22 @@ function determineWinner (playerChoice, computerChoice) {
      }
 }
 
+//#10
+function updateScore (roundResult) {
+
+    if (roundResult === "Player") { 
+        playerScore += 1; }
+
+    else if (roundResult === "Computer") { 
+         computerScore += 1; 
+        }
+
+   if (roundResult === "Tie") { 
+    
+    console.log("Round ended in a Tie. No score updates"); 
+}
+}
+
 
 
 // reset button layout, not final
