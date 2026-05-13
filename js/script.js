@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
 let playerScore = 0;
 let computerScore = 0;
 
+var mScore = document.getElementById("scoreDisplay");
+var cScore = document.getElementById("oppDisplay");
+
 var rockBtn = document.getElementById("rockInput");
 var scissorsBtn = document.getElementById("scissorsInput");
 var paperBtn = document.getElementById("paperInput");
@@ -106,14 +109,19 @@ function updateScore (roundResult) {
 
 //#11
 
+function updateDisplay () {
+    mScore.textContent = playerScore;
+    cScore.textContent = computerScore;
+}
+
 //#12
  resetBtn.addEventListener('click', reset)
- 
+
 function reset () {
    playerScore = 0;
    computerScore = 0;
-  playerScore.textContent = playerScore;
-  computerScore.textContent= computerScore;
+  mScore.textContent = playerScore;
+  cScore.textContent= computerScore;
 }
 
 
