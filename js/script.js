@@ -22,7 +22,7 @@ return choices[index];
 //#5
 function playRound (playerChoice) {
 
-    console.log("Playing Round:" + playerChoice);
+    console.log("Playing Round:  " + playerChoice);
     //#6
 rockBtn.addEventListener("click", function () {
 
@@ -129,7 +129,6 @@ function reset () {
 
 }
 
-// //#6
 // rockBtn.addEventListener("click", function () {
     
 //     playRound("rock"); 
@@ -137,15 +136,12 @@ function reset () {
 // });
 
 
-// //#7
-
+// 
 // paperBtn.addEventListener( "click", function () {
 
 // playRound("paper");
 
 // });
-
-// //#8
 
 // scissorsBtn.addEventListener( "click", function () {
 
@@ -155,7 +151,7 @@ function reset () {
 
 // //paperBtn.addEventListener( 'click', playRound);
 
-// //#9
+
 // function determineWinner (playerChoice, computerChoice) {
 
 //        var playerC = choices[playerChoice];
@@ -193,7 +189,7 @@ function reset () {
 //      }
 // }
 
-// //#10
+
 // function updateScore (roundResult) {
 
 //     if (roundResult === "Player") { 
@@ -211,14 +207,14 @@ function reset () {
 // }
 // }
 
-// //#11
+
 
 // function updateDisplay () {
 //     mScore.textContent = playerScore;
 //     cScore.textContent = computerScore;
 // }
 
-// //#12
+
 //  resetBtn.addEventListener('click', reset)
 
 // function reset () {
