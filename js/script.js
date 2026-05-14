@@ -21,6 +21,8 @@ return choices[index];
 
 //#5
 function playRound (playerChoice) {
+
+    console.log("Playing Round:" + playerChoice);
     //#6
 rockBtn.addEventListener("click", function () {
 
@@ -124,7 +126,7 @@ function reset () {
 }
 
 
-console.log("Playing Round" + playerChoice);
+
 }
 
 // //#6
