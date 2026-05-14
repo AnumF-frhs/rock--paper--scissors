@@ -17,6 +17,7 @@ let computerScore = 0;
 var mScore = document.getElementById("scoreDisplay");
 var cScore = document.getElementById("oppDisplay");
 
+
 var rockBtn = document.getElementById("rockInput");
 var scissorsBtn = document.getElementById("scissorsInput");
 var paperBtn = document.getElementById("paperInput");
@@ -74,13 +75,20 @@ function determineWinner (playerChoice, computerChoice) {
        }
 
        if (playerC === "Rock") {
-         if (computerC === "Paper") { return "Computer"; }
-               else { return "Player"; }
+         if (computerC === "Paper") {
+             return "Computer";
+             }   else { 
+                return "Player"; 
+            }
        }
 
        if (playerC === "Paper") {
-             if (computerC === "Scissors") { return "Computer"; }
-             else { return "Player";}
+             if (computerC === "Scissors")
+                 { return "Computer"; 
+
+                 } else { 
+                    return "Player";
+                }
       }
 
 
@@ -95,13 +103,15 @@ function determineWinner (playerChoice, computerChoice) {
 function updateScore (roundResult) {
 
     if (roundResult === "Player") { 
-        playerScore += 1; }
+        playerScore += 1; 
+    }
 
     else if (roundResult === "Computer") { 
          computerScore += 1; 
         }
 
-   if (roundResult === "Tie") { 
+   else (roundResult === "Tie") 
+   { 
     
     console.log("Round ended in a Tie. No score updates"); 
 }
@@ -129,4 +139,6 @@ function reset () {
 
  console.log(getComputerChoice);
  console.log(playRound);
+ console.log(updateDisplay);
+ console.log(updateScore);
  console.log(choices);
