@@ -4,7 +4,7 @@
 
 let playerScore = 0;
 let computerScore = 0;
-// let ties = 0; // optional
+let ties = 0; // optional
 
 const choices = ["Rock", "Paper", "Scissors"];
 
@@ -66,7 +66,7 @@ function updateScore(result) {
 }
 
 function displayResult(playerChoice, computerChoice, result) {
-    let resultText = "";    
+    let resultText = " ";    
     if (result === "player") {
         resultText = "You win!";
     }
@@ -90,8 +90,8 @@ function resetGame() {
    
     document.querySelector("#playerScore").textContent = playerScore;
     document.querySelector("#computerScore").textContent = computerScore;
-    document.querySelector("#outcome").textContent = "";
-    document.querySelector("#result").textContent = "";
+    document.querySelector("#outcome").textContent = " ";
+    document.querySelector("#result").textContent = " ";
 }
 
 // var mScore = document.getElementById("scoreDisplay");
