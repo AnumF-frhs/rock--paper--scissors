@@ -1,5 +1,5 @@
-/* background */
 
+/* Main Body */
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@ body {
   font-family: 'Press Start 2P', system-ui, sans-serif;
 }
 
+/* background */
 .stars {
   width: 1px;
   height: 1px;
@@ -136,10 +137,6 @@ h1 {
     font-family: 'Press Start 2P', monospace;
 }
 
-
-
- 
-
 .hud-card {
     background: #f8f9fa;
     border: 6px solid #111;
@@ -150,7 +147,7 @@ h1 {
   font-family: 'Press Start 2P', monospace;
 }
 
-/*text*/
+/*buttons*/
 #rockInput {
   color: #f8f9fa;
 }
@@ -245,11 +242,11 @@ h1 {
 
 .RES {
   color: rgb(0, 0, 0);
-   font-family: 'Press Start 2P', system-ui, sans-serif;
+   font-family: 'Press Start 2P', monospace;
 }
 .meow {
   color: rgb(0, 0, 0);
-   font-family: 'Press Start 2P', system-ui, sans-serif;
+   font-family: 'Press Start 2P', monospace;
 }
 
 

@@ -74,7 +74,7 @@ function displayResult(playerChoice, computerChoice, result) {
         resultText = "Computer wins!";
     }
     else {
-        resultText = "It's a tie!";
+        resultText = "Tie, no points added.";
     }
         document.querySelector("#outcome").textContent = playerChoice + " vs " + computerChoice;
         document.querySelector("#result").textContent = resultText;
@@ -93,6 +93,9 @@ function resetGame() {
     document.querySelector("#outcome").textContent = " ";
     document.querySelector("#result").textContent = " ";
 }
+
+
+// Old Code (doesn't work)
 
 // var mScore = document.getElementById("scoreDisplay");
 // var cScore = document.getElementById("oppDisplay");
