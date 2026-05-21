@@ -68,13 +68,13 @@ function updateScore(result) {
 function displayResult(playerChoice, computerChoice, result) {
     let resultText = " ";    
     if (result === "player") {
-        resultText = "You win!";
+        resultText = "You win!☺️";
     }
     else if (result === "computer") {
-        resultText = "Computer wins!";
+        resultText = "Computer wins! 🤖";
     }
     else {
-        resultText = "Tie, no points added.";
+        resultText = "Tie, no points added. 😛";
     }
         document.querySelector("#outcome").textContent = playerChoice + " vs " + computerChoice;
         document.querySelector("#result").textContent = resultText;
